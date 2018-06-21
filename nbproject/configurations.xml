@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="src">
+        <df name="baseq2">
+          <in>g_ai.c</in>
+          <in>g_chase.c</in>
+          <in>g_cmds.c</in>
+          <in>g_combat.c</in>
+          <in>g_func.c</in>
+          <in>g_items.c</in>
+          <in>g_main.c</in>
+          <in>g_misc.c</in>
+          <in>g_monster.c</in>
+          <in>g_phys.c</in>
+          <in>g_ptrs.c</in>
+          <in>g_save.c</in>
+          <in>g_spawn.c</in>
+          <in>g_svcmds.c</in>
+          <in>g_target.c</in>
+          <in>g_trigger.c</in>
+          <in>g_turret.c</in>
+          <in>g_utils.c</in>
+          <in>g_weapon.c</in>
+          <in>m_actor.c</in>
+          <in>m_berserk.c</in>
+          <in>m_boss2.c</in>
+          <in>m_boss3.c</in>
+          <in>m_boss31.c</in>
+          <in>m_boss32.c</in>
+          <in>m_brain.c</in>
+          <in>m_chick.c</in>
+          <in>m_flipper.c</in>
+          <in>m_float.c</in>
+          <in>m_flyer.c</in>
+          <in>m_gladiator.c</in>
+          <in>m_gunner.c</in>
+          <in>m_hover.c</in>
+          <in>m_infantry.c</in>
+          <in>m_insane.c</in>
+          <in>m_medic.c</in>
+          <in>m_move.c</in>
+          <in>m_mutant.c</in>
+          <in>m_parasite.c</in>
+          <in>m_soldier.c</in>
+          <in>m_supertank.c</in>
+          <in>m_tank.c</in>
+          <in>p_client.c</in>
+          <in>p_hud.c</in>
+          <in>p_trail.c</in>
+          <in>p_view.c</in>
+          <in>p_weapon.c</in>
+        </df>
+        <df name="client">
+          <df name="sound">
+            <df name="qal">
+              <in>dynamic.c</in>
+              <in>fixed.c</in>
+            </df>
+            <in>al.c</in>
+            <in>dma.c</in>
+            <in>main.c</in>
+            <in>mem.c</in>
+            <in>mix.c</in>
+          </df>
+          <df name="ui">
+            <in>demos.c</in>
+            <in>menu.c</in>
+            <in>playerconfig.c</in>
+            <in>playermodels.c</in>
+            <in>script.c</in>
+            <in>servers.c</in>
+            <in>ui.c</in>
+          </df>
+          <in>ascii.c</in>
+          <in>console.c</in>
+          <in>crc.c</in>
+          <in>demo.c</in>
+          <in>download.c</in>
+          <in>effects.c</in>
+          <in>entities.c</in>
+          <in>gtv.c</in>
+          <in>http.c</in>
+          <in>input.c</in>
+          <in>keys.c</in>
+          <in>locs.c</in>
+          <in>main.c</in>
+          <in>newfx.c</in>
+          <in>null.c</in>
+          <in>parse.c</in>
+          <in>precache.c</in>
+          <in>predict.c</in>
+          <in>refresh.c</in>
+          <in>screen.c</in>
+          <in>tent.c</in>
+          <in>view.c</in>
+        </df>
+        <df name="common">
+          <df name="net">
+            <in>chan.c</in>
+            <in>net.c</in>
+          </df>
+          <df name="x86">
+            <in>fpu.c</in>
+          </df>
+          <in>bsp.c</in>
+          <in>cmd.c</in>
+          <in>cmodel.c</in>
+          <in>common.c</in>
+          <in>cvar.c</in>
+          <in>error.c</in>
+          <in>field.c</in>
+          <in>fifo.c</in>
+          <in>files.c</in>
+          <in>math.c</in>
+          <in>mdfour.c</in>
+          <in>msg.c</in>
+          <in>pmove.c</in>
+          <in>prompt.c</in>
+          <in>sizebuf.c</in>
+          <in>tests.c</in>
+          <in>utils.c</in>
+          <in>zone.c</in>
+        </df>
+        <df name="refresh">
+          <in>draw.c</in>
+          <in>hq2x.c</in>
+          <in>images.c</in>
+          <in>legacy.c</in>
+          <in>main.c</in>
+          <in>mesh.c</in>
+          <in>models.c</in>
+          <in>qgl.c</in>
+          <in>shader.c</in>
+          <in>sky.c</in>
+          <in>state.c</in>
+          <in>surf.c</in>
+          <in>tess.c</in>
+          <in>texture.c</in>
+          <in>world.c</in>
+        </df>
+        <df name="server">
+          <df name="mvd">
+            <in>client.c</in>
+            <in>game.c</in>
+            <in>parse.c</in>
+          </df>
+          <in>ac.c</in>
+          <in>commands.c</in>
+          <in>entities.c</in>
+          <in>game.c</in>
+          <in>init.c</in>
+          <in>main.c</in>
+          <in>mvd.c</in>
+          <in>save.c</in>
+          <in>send.c</in>
+          <in>user.c</in>
+          <in>world.c</in>
+        </df>
+        <df name="shared">
+          <in>m_flash.c</in>
+          <in>shared.c</in>
+        </df>
+        <df name="unix">
+          <in>hunk.c</in>
+          <in>oss.c</in>
+          <in>sound.c</in>
+          <in>system.c</in>
+          <in>tty.c</in>
+          <in>video.c</in>
+        </df>
+        <df name="windows">
+          <in>ac.c</in>
+          <in>client.c</in>
+          <in>debug.c</in>
+          <in>dsound.c</in>
+          <in>glimp.c</in>
+          <in>hunk.c</in>
+          <in>system.c</in>
+          <in>wave.c</in>
+          <in>wgl.c</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/baseq2/g_ai.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_chase.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_cmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_combat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_func.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_items.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_misc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_monster.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_phys.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_ptrs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_save.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_spawn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_svcmds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_target.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_trigger.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_turret.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/g_weapon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_actor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_berserk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_boss2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_boss3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_boss31.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_boss32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_brain.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_chick.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_flipper.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_float.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_flyer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_gladiator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_gunner.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_hover.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_infantry.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_insane.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_medic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_move.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_mutant.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_parasite.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_soldier.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_supertank.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/m_tank.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/p_client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/p_hud.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/p_trail.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/p_view.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/baseq2/p_weapon.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ascii.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/console.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/crc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/demo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/download.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/effects.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/entities.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/gtv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/http.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/keys.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/locs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/newfx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/null.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/parse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/precache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/predict.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/refresh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/screen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/al.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/dma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/mem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/mix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/qal/dynamic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/sound/qal/fixed.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/tent.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/demos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/menu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/playerconfig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/playermodels.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/script.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/servers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/ui/ui.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/client/view.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/bsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/cmd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/cmodel.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/cvar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/field.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/fifo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/files.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/math.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/mdfour.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/msg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/net/chan.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/net/net.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/pmove.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/prompt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/sizebuf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/tests.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/x86/fpu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/common/zone.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/draw.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/hq2x.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/images.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/legacy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/mesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/models.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/qgl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/shader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/sky.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/state.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/surf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/tess.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/texture.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/refresh/world.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/ac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/commands.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/entities.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/game.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/mvd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/mvd/client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/mvd/game.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/mvd/parse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/save.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/send.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/user.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/server/world.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/shared/m_flash.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/shared/shared.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/unix/hunk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/unix/oss.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/unix/sound.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/unix/system.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/unix/tty.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/unix/video.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/ac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/client.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/debug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/dsound.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/glimp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/hunk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/system.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/wave.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/windows/wgl.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
